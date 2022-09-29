@@ -3,15 +3,15 @@ export const config = {
    * 公众号配置
    */
 
-  // 公众号APP_ID 
+  // 公众号APP_ID wxbcfbde32173fa250
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  // APP_ID: "",
+  // APP_ID: "wxbcfbde32173fa250",
 
   // 公众号APP_SECRET 
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  // APP_SECRET: "",
+  // APP_SECRET: "810bc79225551ebce56268c72eb59867",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -31,24 +31,24 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "欧阳憨憨",
+      name: "我的宝贝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o0plv51RxAk1h4W0q8Ww4PuvtWaw",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "kU3PiJQxRjY9l6uKOqFxdWQkFViUwdu-NfrPFZynJKE",
       // 所在省份
-      province: "广东",
+      province: "四川",
       // 所在城市
-      city: "广州",
+      city: "重庆",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "本机", 
+      name: "菜菜", 
       id: "o0plv54YCWE5xO6zWUwkqE2wCE2c",
       useTemplateId: "kU3PiJQxRjY9l6uKOqFxdWQkFViUwdu-NfrPFZynJKE",
-      province: "广东",
-      city: "珠海",
+      province: "湖南",
+      city: "长沙",
       openUrl: "https://baidu.com"
     }, 
     /*
@@ -82,9 +82,9 @@ export const config = {
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "自己",
+      name: "菜菜",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o0plv54YCWE5xO6zWUwkqE2wCE2c",
+      id: "caizsheng1203",
     }, 
   ],
     
@@ -108,10 +108,10 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
    FESTIVALS: [
-    {"type": "生日", "name": "欧阳", "year": "2000", "date": "01-13"},
+    {"type": "生日", "name": "美", "year": "2001", "date": "10-18"},
     {"type": "节日", "name": "元旦纪念日", "year": "2021", "date": "01-01"},
-    //{"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    //{"type": "生日", "name": "菜菜", "year": "1996", "date": "12-03"},
+    //{"type": "节日", "name": "纪念日", "year": "2022", "date": "09-11"},
   ],
 
   /**
